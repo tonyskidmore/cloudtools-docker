@@ -13,5 +13,6 @@ docker run \
 --env ANSIBLE_PLAYBOOK="test.yml" \
 --env ANSIBLE_PARAMS="" \
 --env SSH_PRIVATE_KEY="${SSH_PRIVATE_KEY}" \
+--rm \
 --name cloudtools \
 cloud-tools:latest
