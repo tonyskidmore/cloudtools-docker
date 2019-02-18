@@ -1,6 +1,5 @@
 #!/bin/bash
 docker run \
--it \
 --env AZURE_SUBSCRIPTION_ID=${AZURE_SUBSCRIPTION_ID} \
 --env AZURE_CLIENT_ID=${AZURE_CLIENT_ID} \
 --env AZURE_SECRET=${AZURE_SECRET} \
@@ -15,6 +14,4 @@ docker run \
 --env ANSIBLE_PARAMS="" \
 --env SSH_PRIVATE_KEY="${SSH_PRIVATE_KEY}" \
 --name cloudtools \
---rm \
-cloud-tools:latest \
-/bin/bash
+cloud-tools:latest
