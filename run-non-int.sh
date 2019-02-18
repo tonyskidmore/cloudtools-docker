@@ -11,7 +11,7 @@ docker run \
 --env ANSIBLE_TARGET="build_1" \
 --env ANSIBLE_USER="cloud_user" \
 --env ANSIBLE_PLAYBOOK="test.yml" \
---env ANSIBLE_PARAMS="" \
+--env ANSIBLE_PARAMS='' \
 --env SSH_PRIVATE_KEY="${SSH_PRIVATE_KEY}" \
 --rm \
 --name cloudtools \

@@ -1,7 +1,7 @@
 ---
 
 - name: Test playbook
-  hosts: "{{ target }}"
+  hosts: localhost
   gather_facts: yes
 
   tasks:
