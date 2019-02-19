@@ -7,4 +7,4 @@ cd /playbooks
 
 git clone https://github.com/tonyskidmore/cloudtools-content.git
 
-ansible-playbook $ANSIBLE_PLAYBOOK $ANSIBLE_PARAMS
+ansible-playbook $ANSIBLE_PLAYBOOK $ANSIBLE_PARAMS -i /inventory
