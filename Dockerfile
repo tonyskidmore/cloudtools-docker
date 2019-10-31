@@ -1,7 +1,7 @@
 FROM mcr.microsoft.com/powershell:centos-7
 
-ENV ANSIBLE_VERSION=2.7.7
-ENV TERRAFORM_VERSION 0.11.11
+ENV ANSIBLE_VERSION=2.8.6
+ENV TERRAFORM_VERSION 0.12.12
 
 RUN yum -y update && \
     yum -y install python-setuptools python-devel gcc git wget unzip && \
